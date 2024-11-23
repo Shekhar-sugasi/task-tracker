@@ -1,0 +1,43 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.filters button.pending {
+  background: #ffc107;
+  color: #212529;
+}
+
+.filters button.pending:hover {
+  background: #e0a800;
+}
+
+.filters button.in-progress {
+  background: #007bff;
+  color: #fff;
+}
+
+.filters button.in-progress:hover {
+  background: #0056b3;
+}
+
+.filters button.completed {
+  background: #28a745;
+  color: #fff;
+}
+
+.filters button.completed:hover {
+  background: #218838;
+}
+
+.filters button.all {
+  background: #6c757d;
+  color: #fff;
+}
+
+.filters button.all:hover {
+  background: #5a6268;
+}
